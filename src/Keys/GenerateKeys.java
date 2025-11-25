@@ -10,7 +10,6 @@ import java.nio.file.Paths;
 public class GenerateKeys {
 
     public static void main(String[] args) throws Exception {
-        // Gerador de par de chaves RSA 2048 bits
         KeyPairGenerator keyGen = KeyPairGenerator.getInstance("RSA");
         keyGen.initialize(2048);
 
